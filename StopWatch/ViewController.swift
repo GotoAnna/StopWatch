@@ -53,6 +53,7 @@ class ViewController: UIViewController {
         label.text = String(format: "%.2f", count)
     }
     
+    //判定
     @objc func hantei(){
         if count >= 9.8 && count <= 10.2{
             label2.text = "PERFECT!"
